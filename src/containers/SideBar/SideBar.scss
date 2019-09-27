@@ -1,9 +1,10 @@
 @import '../../styles/shared.scss';
 
-[class*="col-"] {
-  width: 100%;
+@media only screen and (min-width: 601px) {
+  div.example {
+    width: 100%;
+  }
 }
-@media only screen and (min-width: 768px)
 
 $sidebar-hover-color: #ebebeb;
 .ui.menu.fixed.side-nav {
