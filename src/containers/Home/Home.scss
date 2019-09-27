@@ -6,6 +6,18 @@
   grid: auto / auto;
   justify-content: center;
 }
+
+@media all and (max-width: 476px) {
+  .responsive-video-grid-container {
+    max-width: 240px;
+    display: flex;
+    display: grid;
+    grid: auto / auto;
+    padding-right: 150px;
+    justify-content: center;
+  }
+}
+
 @media all and (min-width: 476px) {
   .responsive-video-grid-container {
     max-width: 240px;
