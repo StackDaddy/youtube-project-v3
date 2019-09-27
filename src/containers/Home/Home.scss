@@ -9,18 +9,33 @@
 @media all and (min-width: 476px) {
   .responsive-video-grid-container {
     max-width: 240px;
+    display: flex;
+    display: grid;
+    grid: auto / auto;
+    padding-right: 150px;
+    justify-content: center;
   }
 }
 
 @media all and (min-width: 700px) {
   .responsive-video-grid-container {
     max-width: 472px;
+    display: flex;
+    display: grid;
+    grid: auto / auto;
+    padding-right: 120px;
+    justify-content: center;
   }
 }
 
 @media all and (min-width: 900px) {
   .responsive-video-grid-container {
     max-width: 667px;
+    display: flex;
+    display: grid;
+    grid: auto / auto;
+    padding-right: 100px;
+    justify-content: center;
   }
 }
 
