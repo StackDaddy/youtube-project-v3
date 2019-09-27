@@ -22,9 +22,9 @@ export class SideBar extends React.Component {
   render() {
     return (
       <div>
-        <button className="button show"onClick={this.hamburger}> open me</button>
+        <button className="button show"onClick={this.hamburger}> = </button>
         <Menu borderless vertical stackable fixed='left' className={`side-nav ${this.state.open}`}>
-        <button className="button away"onClick={this.hamburger}> close me</button>
+        <button className="button away"onClick={this.hamburger}> = </button>
           <SideBarItem path='/' label='Home' icon='home'/>
           <SideBarItem path='/feed/trending' label='Trending' icon='fire'/>
           <SideBarItem label='Followers' icon='spy'/>
