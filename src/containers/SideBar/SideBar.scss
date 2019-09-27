@@ -1,6 +1,9 @@
 @import '../../styles/shared.scss';
 
-@media(max-width: 600px)
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 768px)
 
 $sidebar-hover-color: #ebebeb;
 .ui.menu.fixed.side-nav {
