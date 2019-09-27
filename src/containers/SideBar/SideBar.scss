@@ -1,5 +1,7 @@
 @import '../../styles/shared.scss';
 
+@media(max-width: 600px)
+
 $sidebar-hover-color: #ebebeb;
 .ui.menu.fixed.side-nav {
   background-color: #f5f5f5;
