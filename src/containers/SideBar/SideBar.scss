@@ -1,9 +1,5 @@
 @import '../../styles/shared.scss';
 
-@media only screen and (min-width: 601px) {
-    width: 50%;
-}
-
 $sidebar-hover-color: #ebebeb;
 .ui.menu.fixed.side-nav {
   background-color: #f5f5f5;
@@ -23,4 +19,13 @@ $sidebar-hover-color: #ebebeb;
 
 .side-nav.ui.vertical.menu {
   width: $sidebar-left-width;
+}
+.true{
+  display: block;
+}
+.false{
+  display: none !important;
+}
+.show{
+  margin-top: 100px;
 }
